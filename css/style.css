@@ -218,16 +218,16 @@ h2 {
 @media (max-width: 576px) {
   /* line 126, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
   h2 {
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 28px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 126, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
   h2 {
-    font-size: 24px;
-    line-height: 25px;
+    font-size: 30px;
+    line-height: 32px;
   }
 }
 
@@ -317,7 +317,7 @@ button:focus,
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 186, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
   .section_tittle h2 {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 40px;
     margin-bottom: 15px;
   }
@@ -2182,7 +2182,7 @@ ul {
 /* line 12, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
   color: #4B3049;
-  font-size: 16px;
+  font-size: 20px;
   padding: 35px 21px;
   font-family: "Rubik", sans-serif;
   text-transform: capitalize;
@@ -2589,7 +2589,7 @@ ul {
 
 /* line 74, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_banner.scss */
 .banner_part .banner_text p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.5;
 }
 
@@ -2691,6 +2691,7 @@ ul {
   .banner_part .btn_1 {
     margin-top: 20px;
     padding: 12px 25px;
+    font-size: 22px;
   }
 }
 
@@ -2754,7 +2755,7 @@ ul {
 @media (max-width: 991px) {
   /* line 23, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_single_product.scss */
   .single_product_list .single_product_content h5 {
-    font-size: 16px;
+    font-size: 22px;
   }
 }
 
@@ -2779,8 +2780,11 @@ ul {
 @media (max-width: 991px) {
   /* line 31, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_single_product.scss */
   .single_product_list .single_product_content h2 {
-    font-size: 25px;
+    font-size: 35px;
     margin: 10px 0 30px;
+  }
+  p{
+    font-size: 25px;
   }
 }
 
@@ -2800,6 +2804,7 @@ ul {
   /* line 53, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_single_product.scss */
   .single_product_list .single_product_content .btn_3 {
     padding: 13px 29px;
+    font-size: 22px;
   }
 }
 
@@ -3090,7 +3095,7 @@ input:focus {
 @media (max-width: 991px) {
   /* line 25, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_trending_items.scss */
   .single_product_item h3 {
-    font-size: 18px;
+    font-size: 30px;
   }
 }
 
@@ -3119,7 +3124,7 @@ input:focus {
 @media (max-width: 991px) {
   /* line 44, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_trending_items.scss */
   .single_product_item p {
-    font-size: 16px;
+    font-size: 25px;
   }
 }
 
@@ -3168,7 +3173,22 @@ input:focus {
 @media (max-width: 991px) {
   /* line 16, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
   .client_review p {
-    font-size: 18px;
+    font-size: 25px;
+  }
+  .client_review h5{
+    font-size: 28px;
+    margin-top: 25px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 991px) {
+  /* line 16, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
+  .client_review h5 {
+    font-size: 16px;
+    margin-top: 25px;
+    color: #fff;
+    margin-bottom: 0;
   }
 }
 
@@ -3180,12 +3200,7 @@ input:focus {
 }
 
 /* line 27, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
-.client_review h5 {
-  font-size: 16px;
-  margin-top: 25px;
-  color: #fff;
-  margin-bottom: 0;
-}
+
 
 /* line 34, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_client_review.scss */
 .client_review .client_img {
@@ -8932,3 +8947,10 @@ h6 {
   }
 }
 
+
+
+@media (max-width: 761px) {
+  .btn_1 {
+    font-size: 22px;
+}
+}
