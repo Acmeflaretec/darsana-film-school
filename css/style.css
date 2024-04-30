@@ -271,13 +271,56 @@ button:focus,
 .section_tittle {
   margin-bottom: 80px;
 }
+@media (min-width: 991px) {
+  
+  .logo2{
+    width: 200px;
+  }
+  
+#whatsapp{
+  position: fixed;
+  /* display: none; */
+  right: 20px;
+  bottom: 40px;
+  z-index: 99;
+  padding: 0;
+  display: flex;
+  
+  width: 80px;
+  height: 80px;
+}
+.header_name{
+  font-size: 22px;
+}
 
+}
 @media (max-width: 991px) {
   /* line 175, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
   .section_tittle {
     margin-bottom: 20px;
   }
+  .logo2{
+    width: 250px;
+  }
+  
+#whatsapp{
+  position: fixed;
+  /* display: none; */
+  right: 20px;
+  bottom: 40px;
+  z-index: 99;
+  padding: 0;
+  display: flex;
+  
+  width: 150px;
+  height: 150px;
 }
+.header_name{
+  font-size: 30px;
+}
+
+}
+
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 175, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_common.scss */
@@ -2419,6 +2462,7 @@ ul {
     border-color: transparent;
     position: absolute;
     right: 0;
+    font-size: 40px;
   }
   /* line 230, /Applications/MAMP/htdocs/old/palash/cl/shop_html/sass/_menu.scss */
   .menu_icon i {
@@ -8755,21 +8799,6 @@ h6 {
 }
 
 
-#whatsapp{
-  position: fixed;
-  /* display: none; */
-  right: 20px;
-  bottom: 40px;
-  z-index: 99;
-  padding: 0;
-  display: flex;
-  
-  width: 50px;
-  height: 50px;
-}
-.logo2{
-  width: 200px;
-}
 
 
 
@@ -8949,8 +8978,4 @@ h6 {
 
 
 
-@media (max-width: 761px) {
-  .btn_1 {
-    font-size: 22px;
-}
-}
+
